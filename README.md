@@ -11,25 +11,41 @@ This repository contains the complete analysis pipeline for a PhD thesis investi
 
 # Hypotheses Tested
 **H1a:** Advertisements trigger attention inhibition (increased upper frontal alpha power)
+
 **H1b:** Mean ad-viewing duration falls betweeen established avoidance thresholds
+
 **H1c:** Association between cognitive and behavioral avoidance
+
 **H2a/H2c:** Effect of ad clutter and ad position on cognitive avoidance (alpha power)
+
 **H2b/H2d:** Effect of ad clutter and ad position on behavioral avoidance (viewing duration)
+
 **H3a–H3e:** Predictors of brand recall (alpha power, viewing duration, clutter, position, and the interaction between clutter:position)
+
 
 # Statistical Methods
 **Mixed Linear Models** : Ads vs. content comparison (H1a); clutter × position effects (H2a–H2d)
+
 **OLS & WLS Regression** : Robustness checks with cluster-robust standard errors
+
 **GEE (Binomial)** : Brand recall prediction with exchangeable correlation structure
+
 **LOSO Sensitivity Analysis** : Leave-one-subject-out stability check for GEE coefficients
+
 **Residual Diagnostics** : Q-Q plots, residuals vs. fitted, scale-location plots, VIF tables
+
 **Pseudo R²** : Marginal and conditional R² following Nakagawa & Schielzeth (2013)
+
 
 # Key Variables
 **ln_upper_alpha_frontal_mean** : Natural log-transformed mean upper alpha power across 7 frontal channels (F7, AF7, Fp1, Fpz, Fp2, AF8, F8)
+
 **log_duration** : Log10-transformed segment viewing duration (ms)
+
 **n_ads_z** : Z-scored total number of ads per participant (ad clutter)
+
 **ad_position_c** : Within-subject centered ad position (sequential order)
+
 **is_recall** : Binary brand recall outcome (1 = recalled, 0 = not recalled)
 
 # DATA
