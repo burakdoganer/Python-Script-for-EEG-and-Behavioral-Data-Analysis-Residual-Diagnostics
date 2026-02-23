@@ -6,6 +6,7 @@ This repository contains the complete analysis pipeline for a PhD thesis investi
 
 # Repository Structure
 **01. initial_data_cleaning_ipynb:** Initial data cleaning pipeline: loads iMotions-exported EEG data, filters valid segments, removes excluded participants (n=6), scraps first/last segments, encodes ad indicators and recall variables, and exports the cleaned dataset for downstream analysis.
+
 **02. data_analysis_pipeline_final.ipynb** : Main analysis pipeline: data preparation, hypothesis testing (H1–H3), and residual diagnostics. Includes mixed linear models for cognitive avoidance (EEG alpha), OLS/WLS regressions for behavioral avoidance (ad-watch duration), GEE for brand recall, LOSO sensitivity analysis, VIF checks, and publication-ready figures.
 
 # Hypotheses Tested
