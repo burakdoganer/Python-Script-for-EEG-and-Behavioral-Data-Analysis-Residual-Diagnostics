@@ -1,0 +1,2 @@
+# Python-Script-for-EEG-and-Behavioral-Data-Analysis-Residual-Diagnostics
+Python scripts for analyzing EEG (upper frontal alpha power) and behavioral (ad-watch duration) data from a Reels advertising avoidance study (N=84, 522 ad exposures). Includes mixed linear models, OLS/WLS regression, residual diagnostics, brand recall analysis, and within-subject normalization procedures. Built for iMotions-exported EEG data
